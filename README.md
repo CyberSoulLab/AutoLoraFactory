@@ -261,4 +261,4 @@ MIT License
 
 # Author
 
-CyberSoul Wing
+CyberSoulWing
