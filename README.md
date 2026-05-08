@@ -2,7 +2,7 @@
 
 > Automated Stable Diffusion LoRA pipeline with dataset extraction, training, generation, and evaluation.
 
-AutoLoRA is a Python-based automation pipeline for creating high-quality LoRA models from videos.
+AutoLoraFactory is a Python-based automation pipeline for creating high-quality LoRA models from videos.
 
 It automatically:
 
