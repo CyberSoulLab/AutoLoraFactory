@@ -1,4 +1,4 @@
-# AutoLoRA
+# AutoLoraFactory
 
 > Automated Stable Diffusion LoRA pipeline with dataset extraction, training, generation, and evaluation.
 
