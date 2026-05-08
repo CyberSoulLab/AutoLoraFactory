@@ -95,3 +95,24 @@ CUDA GPU
 FFmpeg
 Stable Diffusion WebUI
 kohya_ss / sd-scripts
+
+# Python Packages
+
+pip install \
+  torch \
+  torchvision \
+  diffusers \
+  transformers \
+  insightface \
+  opencv-python \
+  pillow \
+  tqdm \
+  imagehash \
+  xformers
+
+# Setup
+1. Install FFmpeg
+
+Make sure FFmpeg is installed and added to PATH.
+
+ffmpeg -version
