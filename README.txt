@@ -87,7 +87,7 @@ AutoLora/
 │   ├── generate.py
 │   ├── evaluate.py
 │   ├── utils.py
-│   └── run.py
+├── run.py
 └── results.json
 ```
 
