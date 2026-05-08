@@ -11,7 +11,7 @@ import logging
 # =========================
 # ■ 設定（絶対変えるな）
 # =========================
-BASE_DIR = r"C:\Users\cyber\Desktop\program\python\AutoLora"
+BASE_DIR = r"AutoLoraPath"
 INPUT_DIR = os.path.join(BASE_DIR, "input")
 DATASET_DIR = os.path.join(BASE_DIR, "dataset", "10_person")
 
