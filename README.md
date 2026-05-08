@@ -2,7 +2,7 @@
 
 > Automated Stable Diffusion LoRA pipeline with dataset extraction, training, generation, and evaluation.
 
-AutoLoraFactory is a Python-based automation pipeline for creating high-quality LoRA models from videos.
+AutoLoRA is a Python-based automation pipeline for creating high-quality LoRA models from videos.
 
 It automatically:
 
@@ -171,61 +171,23 @@ input/
 
 ---
 
-## Step 2 — Generate Dataset
+## Step 2 — Run Pipeline
 
 ```bash
-python pipeline/extract.py
+python run.py
 ```
 
-This step:
+The pipeline automatically handles:
 
-- extracts frames
-- detects faces
-- crops faces
-- removes duplicates
-- filters low-quality images
-- generates captions
-
----
-
-## Step 3 — Train LoRA
-
-```bash
-python pipeline/train.py \
-  --dim 16 \
-  --lr 5e-5 \
-  --steps 1000 \
-  --name test_lora
-```
-
----
-
-## Step 4 — Generate Images
-
-```bash
-python pipeline/generate.py --name test_lora
-```
-
-Outputs:
-
-```text
-outputs/test_lora/
-```
-
----
-
-## Step 5 — Automatic Search
-
-```bash
-python pipeline/run.py
-```
-
-This automatically runs:
-
-1. training
-2. image generation
-3. evaluation
-4. best model selection
+1. frame extraction
+2. face detection & crop
+3. duplicate removal
+4. quality filtering
+5. caption generation
+6. LoRA training
+7. image generation
+8. CLIP evaluation
+9. best checkpoint selection
 
 ---
 
@@ -259,8 +221,7 @@ Current metrics:
 # Example Workflow
 
 ```bash
-python pipeline/extract.py
-python pipeline/run.py
+python run.py
 ```
 
 That's it.
