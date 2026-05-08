@@ -86,9 +86,11 @@ AutoLora/
 │   ├── train.py
 │   ├── generate.py
 │   ├── evaluate.py
-│   ├── utils.py
+│   └── utils.py
 ├── run.py
-└── results.json
+├── requirements.txt
+├── LICENSE
+└── README.md
 ```
 
 ---
@@ -276,15 +278,17 @@ The pipeline handles the rest automatically.
 
 ---
 
-# Future Improvements
+# Disclaimer
 
-- BLIP automatic captioning
-- better aesthetic predictor
-- multi-character support
-- automatic tagging
-- DreamBooth support
-- Web UI
-- distributed training
+This project was built in 2 days.
+
+I do not accept ugly code.  
+I will probably not maintain this repository.
+
+Use it, modify it, break it — do whatever you want.
+
+This project is intended for research and educational purposes only.  
+Users are responsible for complying with applicable laws and platform policies.
 
 ---
 
@@ -297,14 +301,3 @@ MIT License
 # Author
 
 CyberSoul Wing
-
----
-
-# Disclaimer
-
-This project was built in 2 days.
-
-I do not accept ugly code.  
-I will probably not maintain this repository.
-
-Use it, modify it, break it — do whatever you want.
